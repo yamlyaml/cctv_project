@@ -1,4 +1,4 @@
-# SrtPlayer
+## SrtPlayer
 
 An Android SRT test player powered by [ExoPayer](https://github.com/google/ExoPlayer). Most of this code
 comes from [YoussefHenna](https://github.com/YoussefHenna) reply in
