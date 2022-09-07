@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="FTP Server Connection"
+        android:textAlignment="center"
+        android:textColor="@color/font"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/register_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/line"
+        android:ems="10"
+        android:hint="IP address"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/register_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/line"
+        android:ems="10"
+        android:hint="Port"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:textCursorDrawable="@null" />
+
+    <EditText
+        android:id="@+id/register_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/line"
+        android:ems="10"
+        android:hint="Server admin ID"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:textCursorDrawable="@null" />
+
+    <Switch
+        android:id="@+id/register_switch_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Use id file"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/font"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/line"
+        android:ems="10"
+        android:hint="Server admin Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:textCursorDrawable="@null" />
+
+    <Button
+        android:id="@+id/register_button_choose_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/background"
+        android:onClick="performFileSearchPrivate"
+        android:text="Choose PEM private key..."
+        android:textColor="@color/font"/>
+
+    <Switch
+        android:id="@+id/register_switch_pem_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Password protected"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/font"
+        android:textSize="14sp" />
+
+
+    <EditText
+        android:id="@+id/register_pem_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/line"
+        android:ems="10"
+        android:hint="PEM password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/font"
+        android:textColorHint="@color/font"
+        android:textCursorDrawable="@null" />
+
+    <Button
+        android:id="@+id/register_button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/background"
+        android:onClick="saveConnection"
+        android:text="Connect"
+        android:textColor="@color/font"/>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SrtPlayer</string>
+
+    <string name="srt_endpoint_key">srt_endpoint_key</string>
+    <string name="srt_endpoint_default">srt://59.13.236.209:33125</string>
+    <string name="srt_endpoint">SRT Address</string>
+    <string name="srt_passphrase">Password</string>
+    <string name="srt_passphrase_key">srt_passphrase_key</string>
+    <string name="srt_passphrase_default" />
+    <string name="update">Update</string>
+    <string name="admin_ID">admin</string>
+    <string name="admin_Password">1234</string>
+    <string name="text_realTime">CCTV</string>
+    <string name="text_openDir">Saved List</string>
+    <string name="text_buzzer">Buzzer</string>
+<!--ftp string-->
+<!--    <string name="app_name">Spider</string>-->
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
